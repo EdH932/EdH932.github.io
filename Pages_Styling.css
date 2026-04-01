@@ -9,7 +9,10 @@ body{
 	background-color: var(--primary-bg-color);
 	color: var(--color);
 }
-
+h1{
+	font-weight: bold;
+	text-decoration: underline;
+}
 .Vertical{
 	width: 200px;
   	height: 300px;
@@ -21,7 +24,10 @@ body{
   	height: 200px;
 	border: 2.5px solid var(--secondary-color);
 }
-
+h2{
+	font-weight: bold;
+	text-decoration: underline;
+}
 .Credit {
 	font-size: 10px;
 	text-align: center;
