@@ -1,0 +1,32 @@
+:root {
+	--color: #27ACCE;
+	--primary-bg-color: #270234;
+	--primary-color: #2742ce;
+	--secondary-color: #d30ac6;
+	--accent-color: #894e7c;
+}
+body{
+	background-color: var(--primary-bg-color);
+	color: var(--color);
+}
+
+.Vertical{
+	width: 200px;
+  	height: 300px;
+	border: 2.5px solid var(--secondary-color);
+}
+
+.horizontal{
+	width: 300px;
+  	height: 200px;
+	border: 2.5px solid var(--secondary-color);
+}
+
+.Credit {
+	font-size: 10px;
+	text-align: center;
+	
+}
+.CenterStuff{
+	text-align: center;
+}
