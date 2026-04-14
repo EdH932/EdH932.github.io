@@ -13,6 +13,24 @@ h1{
 	font-weight: bold;
 	text-decoration: underline;
 }
+table, td, th{
+	border: 3px double var(--accent-color);
+	margin: 0 auto;
+	width: 600px;
+  	height: 50px;
+	
+}
+form{
+	border: 2.5px dotted var(--accent-color);
+	width:500px;
+	margin: 0 auto;
+}
+label, input, textarea{
+	margin-left: 0;
+}
+b{
+	font-size: 20px;
+}
 .Vertical{
 	width: 200px;
   	height: 300px;
