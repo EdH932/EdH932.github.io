@@ -5,6 +5,23 @@
 	--secondary-color: #d30ac6;
 	--accent-color: #894e7c;
 }
+nav {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+nav a{
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 5px double #27ACCE;
+}
+nav a:link{
+	color:#27ACCE;
+}
+nav a:hover{
+	color: #894e7c;
+}
+
 body{
 	background-color: var(--primary-bg-color);
 	color: var(--color);
@@ -30,6 +47,9 @@ label, input, textarea{
 }
 b{
 	font-size: 20px;
+}
+video{
+	border: 2.5px solid var(--accent-color);
 }
 .Vertical{
 	width: 200px;
